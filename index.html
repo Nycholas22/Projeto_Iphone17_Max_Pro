@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 17 Pro Max - Poderosamente Impossível</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: black;
+            color: white;
+            scroll-behavior: smooth;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(to right, #fb923c, #ea580c, #ef4444);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .feature-card:hover {
+            border-color: rgba(234, 88, 12, 0.5);
+            transform: translateY(-8px);
+        }
+
+        .animate-fade-up {
+            animation: fadeUp 1s ease-out forwards;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .glow-orange {
+            box-shadow: 0 0 20px rgba(234, 88, 12, 0.2);
+        }
+    </style>
+</head>
+<body class="selection:bg-orange-500/30 overflow-x-hidden">
+
+    <!-- Navegação -->
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="text-2xl font-bold tracking-tighter bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                iPhone 17 Pro Max
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
+                <a href="#visao" class="hover:text-white transition-colors">Visão Geral</a>
+                <a href="#especs" class="hover:text-white transition-colors">Especificações</a>
+                <a href="#camera" class="hover:text-white transition-colors">Câmara</a>
+            </div>
+            <button class="bg-white text-black px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-gray-200 transition-all flex items-center gap-2">
+                Comprar <i class="fa-solid fa-cart-shopping text-xs"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Secção Hero -->
+    <section id="visao" class="relative pt-32 pb-20 px-6 flex flex-col items-center text-center min-h-screen">
+        <div class="animate-fade-up">
+            <span class="text-orange-500 font-semibold tracking-widest uppercase text-sm mb-4 block">Lançamento 2025</span>
+            <h1 class="text-5xl md:text-8xl font-black mb-6 tracking-tighter leading-tight">
+                Poderosamente <br />
+                <span class="hero-gradient">Impossível.</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl mb-10">
+                O novo iPhone 17 Pro Max redefine o que um smartphone pode fazer com o chip A19 Pro e um design em Titânio-Alumínio Fusion.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <button class="w-full sm:w-auto bg-orange-600 hover:bg-orange-500 text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg shadow-orange-600/20 flex items-center justify-center gap-2">
+                    Reserva o teu agora <i class="fa-solid fa-chevron-right text-sm"></i>
+                </button>
+                <button class="w-full sm:w-auto border border-white/20 hover:bg-white/5 px-8 py-4 rounded-full font-bold text-lg transition-all">
+                    Ver Vídeo
+                </button>
+            </div>
+        </div>
+
+        <!-- Mockup Visual -->
+        <div class="mt-16 relative w-full max-w-4xl mx-auto px-4 animate-fade-up" style="animation-delay: 0.3s;">
+            <div class="relative aspect-video bg-gradient-to-b from-gray-800 to-black rounded-3xl p-1 shadow-2xl overflow-hidden border border-white/10 group">
+                <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center opacity-40 group-hover:scale-105 transition-transform duration-1000"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                <div class="absolute bottom-8 left-8 text-left">
+                    <h3 class="text-2xl font-bold">Laranja Cósmico</h3>
+                    <p class="text-gray-400">A nova cor que desafia a luz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grelha de Funcionalidades -->
+    <section id="especs" class="py-24 bg-zinc-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Chip -->
+                <div class="feature-card p-8 rounded-3xl bg-black border border-white/5 transition-all group">
+                    <div class="mb-6 bg-white/5 w-16 h-16 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-microchip text-2xl text-orange-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Chip A19 Pro</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        O chip mais rápido do planeta, agora com câmara de vapor para performance extrema em jogos AAA.
+                    </p>
+                </div>
+                <!-- Câmara -->
+                <div class="feature-card p-8 rounded-3xl bg-black border border-white/5 transition-all group">
+                    <div class="mb-6 bg-white/5 w-16 h-16 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-camera text-2xl text-orange-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Câmara de 48MP</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Zoom ótico de 8x e gravação de vídeo em 8K com processamento cinemático em tempo real.
+                    </p>
+                </div>
+                <!-- Ecrã -->
+                <div class="feature-card p-8 rounded-3xl bg-black border border-white/5 transition-all group">
+                    <div class="mb-6 bg-white/5 w-16 h-16 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-mobile-screen-button text-2xl text-orange-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Ecrã 3000 nits</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        O ecrã ProMotion mais brilhante do mundo, com Ceramic Shield 2 ultra resistente a quedas.
+                    </p>
+                </div>
+                <!-- Bateria -->
+                <div class="feature-card p-8 rounded-3xl bg-black border border-white/5 transition-all group">
+                    <div class="mb-6 bg-white/5 w-16 h-16 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-battery-full text-2xl text-orange-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Bateria 5088mAh</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Até 39 horas de vídeo. Carregamento ultra-rápido de 50% em apenas 20 minutos de carga.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção Detalhada -->
+    <section id="camera" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
+                    A inteligência está <br />no coração de tudo.
+                </h2>
+                <div class="space-y-8">
+                    <div class="flex gap-6">
+                        <div class="shrink-0">
+                            <i class="fa-solid fa-wind text-3xl text-blue-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-white">Resfriamento por Vapor</h4>
+                            <p class="text-gray-400">Joga títulos AAA sem quedas de frames. O sistema térmico foi totalmente redesenhado para máxima eficiência.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="shrink-0">
+                            <i class="fa-solid fa-layer-group text-3xl text-purple-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-white">Apple Intelligence 2.0</h4>
+                            <p class="text-gray-400">Edição de fotos profissional e assistente proativo integrado ao novo iOS 26 com IA generativa local.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="shrink-0">
+                            <i class="fa-solid fa-shield-halved text-3xl text-green-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-white">Segurança Avançada</h4>
+                            <p class="text-gray-400">O Ceramic Shield 2 é 3x mais resistente. Proteção total para os teus dados e para o teu hardware.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-[4/5] bg-gradient-to-br from-orange-500/20 to-transparent rounded-[40px] border border-white/10 flex items-center justify-center overflow-hidden glow-orange">
+                   <div class="text-center p-10">
+                      <i class="fa-solid fa-bolt text-6xl text-orange-500 mb-6 animate-pulse"></i>
+                      <p class="text-3xl font-black italic">MAIS RÁPIDO DO QUE NUNCA</p>
+                      <p class="text-gray-500 mt-4 uppercase tracking-widest text-sm">Benchmark: +45% GPU vs 16 Pro Max</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé e Preços -->
+    <footer class="bg-black py-20 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Pronto para o futuro?</h2>
+            <p class="text-gray-400 mb-10 text-xl font-light">A partir de <span class="text-white font-bold">1.499 €</span> ou 62 €/mês</p>
+            
+            <!-- Seletores de Cor -->
+            <div class="flex justify-center gap-6 mb-20">
+                <div class="group relative">
+                    <div class="w-10 h-10 rounded-full bg-orange-600 ring-2 ring-white ring-offset-4 ring-offset-black cursor-pointer transition-transform hover:scale-125"></div>
+                    <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Cósmico</span>
+                </div>
+                <div class="group relative">
+                    <div class="w-10 h-10 rounded-full bg-gray-200 cursor-pointer transition-transform hover:scale-125"></div>
+                    <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Titânio</span>
+                </div>
+                <div class="group relative">
+                    <div class="w-10 h-10 rounded-full bg-zinc-800 cursor-pointer transition-transform hover:scale-125"></div>
+                    <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Noite</span>
+                </div>
+                <div class="group relative">
+                    <div class="w-10 h-10 rounded-full bg-blue-900 cursor-pointer transition-transform hover:scale-125"></div>
+                    <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Abismo</span>
+                </div>
+            </div>
+
+            <p class="text-gray-600 text-sm max-w-xl mx-auto leading-relaxed">
+                © 2025 Apple Inc. Todos os direitos reservados. <br />
+                As especificações baseiam-se em testes laboratoriais. Apple Intelligence requer ligação de dados em algumas funcionalidades. 
+                Preços podem variar conforme o revendedor.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
