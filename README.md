@@ -2,6 +2,12 @@ iPhone 17 Pro Max - Landing Page Premium
 
 Este é um projeto de uma landing page de alta performance e visual sofisticado para a venda fictícia do iPhone 17 Pro Max. O site foi desenvolvido com foco em design moderno, animações suaves e uma experiência de usuário (UX) de nível premium.
 
+🔗 Demonstração Online
+
+Você pode visualizar o projeto em funcionamento aqui:
+
+https://nycholas22.github.io/Projeto_Iphone17_Max_Pro/
+
 🚀 Desenvolvedor
 
 Este projeto foi desenvolvido por:
@@ -45,7 +51,7 @@ Destaques Vibrantes: Uso estratégico da cor laranja para guiar o olhar do usuá
 
 Espaçamento Amplo: Amplo uso de white space (espaço negativo) para transmitir uma sensação de luxo e organização.
 
-📂 Como Executar o Projeto
+📂 Como Executar Localmente
 
 Faça o download do arquivo index.html.
 
